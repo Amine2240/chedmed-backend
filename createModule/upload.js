@@ -2,7 +2,7 @@ const fs = require('fs');
 const { OpenAI } = require('openai');
 
 // Set your OpenAI API key
-const apiKey = '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';
+const apiKey = 'your_api_key';
 const openai = new OpenAI(apiKey);
 
 const uploadFile = async () => {
