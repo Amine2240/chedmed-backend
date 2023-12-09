@@ -4,7 +4,7 @@ const router = express.Router();
 const { OpenAI } = require('openai');
 
 // Set your OpenAI API key
-const apiKey = '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';
+const apiKey = 'your-api-key';
 const openai = new OpenAI(apiKey);
 
 
