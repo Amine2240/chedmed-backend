@@ -5,7 +5,7 @@ const { OpenAI } = require('openai');
 
 // Set your OpenAI API key
 const apiKey = 'your-api-key';
-const openai = new OpenAI(apiKey);
+const openai = new OpenAI({apiKey:process.env.apiKey});
 
 
 router.post('/sendQuestion', async (req, res) => {
